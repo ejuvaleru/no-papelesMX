@@ -1,0 +1,33 @@
+.body{
+    margin:auto;
+}
+.form-group{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-inline{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.encabezado{
+    height: 100px;
+    width: 100%;
+    background-color: #f7f7f7;
+}
+#datosGenerales{
+    width: 50%;
+    background-color: ;
+    height: 730px;
+    float: left;
+    padding-left: 10%;
+}
+#datosDestino{
+    width: 50%;
+    background-color: ;
+    height: 730px;
+    float: right;
+    padding-right: 10%;
+}
+

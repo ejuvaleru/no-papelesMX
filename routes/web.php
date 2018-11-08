@@ -12,5 +12,16 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+          
+       return view ('welcome');
 });
+
+
+Route::get(('/formulario'),function() {
+    return view('archivos.formularioPDF');
+});
+
+Route::post('generar-pdf', 'PDFController@generarPDF')->name('generar');
+Route::post('mostrar-pdf', 'PDFController@index');
+
+Route::resource('mail', 'CorreoController');
